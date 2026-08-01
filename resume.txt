@@ -12,3 +12,7 @@ Skills
 Contact
 - Email: christian@example.com
 - Portfolio: https://example.com
+
+
+documents/my%20resumecv.docx
+Christian-Penaflorida-Resume.docx
