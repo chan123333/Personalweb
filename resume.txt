@@ -1,0 +1,14 @@
+﻿Christian Resume/CV
+
+Profile
+Aspiring Front End & Web Developer
+
+Skills
+- HTML
+- CSS
+- JavaScript
+- Responsive Web Design
+
+Contact
+- Email: christian@example.com
+- Portfolio: https://example.com

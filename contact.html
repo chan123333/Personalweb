@@ -1,0 +1,192 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-inner">
+        <a href="index.html" class="logo">Christian</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <h1>Let's <span class="accent">Talk</span></h1>
+        <p>Have a question or want to work together? Reach out below.</p>
+      </section>
+
+      <section class="contact-info">
+        <h2>Details</h2>
+
+        <a class="contact-item" href="mailto:christianpenaflorida3@gmail.com">
+          <span class="icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="M3 7l9 6 9-6" />
+            </svg>
+          </span>
+          <p><strong>Email:</strong> christianpenaflorida3@gmail.com</p>
+        </a>
+
+        <div class="contact-item">
+          <span class="icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M12 21s-7-6.5-7-11a7 7 0 0 1 14 0c0 4.5-7 11-7 11z" />
+              <circle cx="12" cy="10" r="2.5" />
+            </svg>
+          </span>
+          <p>
+            <strong>Location:</strong> Quezon City, Manila, Philippines, 1119
+          </p>
+        </div>
+
+        <a class="contact-item" href="tel:09161750112">
+          <span class="icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.2c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"
+              />
+            </svg>
+          </span>
+          <p><strong>Mobile No:</strong> 09161750112</p>
+        </a>
+
+        <a
+          class="contact-item"
+          href="https://instagram.com/_madchaaaan"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </span>
+          <p><strong>Instagram:</strong> _madchaaaan</p>
+        </a>
+
+        <a
+          class="contact-item"
+          href="https://github.com/chwaaaaan"
+          target="_blank"
+          rel="noopener"
+        >
+          <span class="icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M8 4L2 12l6 8M16 4l6 8-6 8" />
+            </svg>
+          </span>
+          <p><strong>Github:</strong> chwaaaaan</p>
+        </a>
+      </section>
+
+      <section>
+        <h2>Send a Message</h2>
+        <form class="contact-form" novalidate>
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="plain" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Portfolio Contact Message"
+          />
+
+          <div>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy; 2026 Chwan'sWebsite. All rights reserved.</footer>
+
+    <script src="script.js"></script>
+    <script src="transition.js"></script>
+  </body>
+</html>

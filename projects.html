@@ -1,0 +1,70 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="projects-page">
+    <nav class="navbar">
+      <div class="nav-inner">
+        <a href="index.html" class="logo">Christian</a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section>
+        <h1>My <span class="accent">Work</span></h1>
+        <p>A selection of things I've worked on.</p>
+        <div class="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="app">App</button>
+          <button class="filter" data-filter="api">API</button>
+        </div>
+      </section>
+
+      <section class="card-grid">
+        <a href="#" class="card" data-category="web">
+          <div class="card-image">
+            <img
+              src="/pic/Portfolio.png"
+              alt="Screenshot of the Portfolio Site"
+            />
+          </div>
+          <div class="card-body">
+            <div class="card-text">
+              <h2>My Portfolio Site</h2>
+              <p>A responsive personal portfolio built from scratch.</p>
+            </div>
+            <div class="card-meta">
+              <span class="tag">HTML/CSS/JS</span>
+              <span class="arrow">&rarr;</span>
+            </div>
+          </div>
+        </a>
+      </section>
+    </main>
+
+    <footer>&copy; 2026 Chwan'sWebsite. All rights reserved.</footer>
+
+    <script src="script.js"></script>
+    <script src="transition.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
