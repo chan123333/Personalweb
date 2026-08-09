@@ -49,21 +49,24 @@
     }
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/christianpenaflorida3@gmail.com', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
+      const response = await fetch(
+        'https://formsubmit.co/ajax/christianpenaflorida3@gmail.com',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+          body: JSON.stringify({
+            name,
+            email,
+            message,
+            _captcha: false,
+            _template: 'plain',
+            _subject: 'New Portfolio Contact Message',
+          }),
         },
-        body: JSON.stringify({
-          name,
-          email,
-          message,
-          _captcha: false,
-          _template: 'plain',
-          _subject: 'New Portfolio Contact Message'
-        })
-      });
+      );
 
       if (!response.ok) {
         throw new Error('Request failed');
