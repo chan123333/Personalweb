@@ -1,4 +1,5 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
+  // Project filters
   const filters = document.querySelectorAll('.filter');
   const cards = document.querySelectorAll('.card');
 
@@ -18,6 +19,7 @@
     });
   }
 
+  // Contact form
   const contactForm = document.querySelector('.contact-form');
   if (!contactForm) return;
 
